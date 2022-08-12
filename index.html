@@ -1,0 +1,56 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	
+	<!-- SEO tags -->
+	<meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+	
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+	
+	<!-- Style Sheet -->
+	<link href="style.css" rel="stylesheet"  />
+	
+	<title>word counter</title>
+
+</head>
+<body>
+
+	<header>
+
+	</header>
+
+	<main>
+	
+	<!-- Derived originally from code scientist, edited to look better -->
+	<div class="container-wordcounter">
+		<h1>Word Counter</h1>
+		<textarea name="message" class="message" id="message" cols="50" rows="6" placeholder="Enter Some Text." oninput="updateCount()"></textarea>
+		<p>
+			Words: <span id="word-count">0</span> 
+			<br>
+			Characters: <span id="character-count">0</span> 
+		</p>
+	</div>
+
+	
+	
+	</main>
+	<footer></footer>
+	
+	<script src="main.js"></script>
+ </body>
+ </html>
